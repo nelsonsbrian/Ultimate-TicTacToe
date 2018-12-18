@@ -1,7 +1,7 @@
 # UltimateTicTacToe-react
 Week 18 Epicodus Project: Redux
 
-#### By **Chris Crow**
+#### By **Chris Crow and Brian Nelson**
 
 ## Description
 A React-Redux application that allows two users to play Ultimate Tic-Tac-Toe against one another. For more information on Ultimate Tic-Tac-Toe, including how to play, see its Wikipedia page: https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe.
@@ -30,8 +30,9 @@ Visit the deployed site here: https://chrismcrow.github.io/ultimateTicTacToe-Cre
 ## Support and Contact Details
   
 _Email chrismcrow@gmail.com._
+_EMail nelsonsbrian@gmail.com._
    
 ### License
 MIT
 
-Copyright (c) 2018 **_Chris Crow_**
+Copyright (c) 2018 **_Chris Crow && Brian Nelson_**
