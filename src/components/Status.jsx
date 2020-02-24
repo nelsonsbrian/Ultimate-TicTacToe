@@ -16,7 +16,7 @@ class Status extends React.Component {
   render() {
     return (
       <div className='status'>
-        <style jsx>{`
+        <style jsx="true">{`
             .status {
               padding: 0 20px 20px 0;
               text-align: right;

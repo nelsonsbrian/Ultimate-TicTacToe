@@ -73,7 +73,7 @@ function LocalBoard(props) {
 
   return (
     <div className='local-wrapper' id='local-board'>
-      <style jsx>{`
+      <style jsx="true">{`
         #lc-board3, #lc-board4, #lc-board5 {
           border-top: 2px solid #D90E79;
           border-bottom: 2px solid #D90E79;

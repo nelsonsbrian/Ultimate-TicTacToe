@@ -4,7 +4,7 @@ import React from 'react';
 function Header() {
   return (
     <div className='jumbotron'>
-      <style jsx>{`
+      <style jsx="true">{`
         .jumbotron {
           background-color: black;
           text-align: center;

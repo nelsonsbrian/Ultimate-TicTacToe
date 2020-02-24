@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Cherry+Cream+Soda');
-
-
 body {
-  font-family: 'Cherry Cream Soda', cursive;
-  background-color: black;
-  background-image: url('./assets/Space-Desktop.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #0EFEE0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

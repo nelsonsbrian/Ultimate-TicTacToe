@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 class GlobalBoard extends React.Component {
   constructor(props) {
     super(props);
-    this.bgColor;
+    this.bgColor = '';
     this.checkWin = this.checkWin.bind(this);
   }
 
@@ -46,7 +46,7 @@ class GlobalBoard extends React.Component {
       mark: null
     };
     let targetDiv = document.getElementById('gameBoard');
-    let boardWinnerCount = this.props.boardData.filter( lBoard => (lBoard.boardWinner !== null)).length;
+    let boardWinnerCount = this.props.boardData.filter(lBoard => (lBoard.boardWinner !== null)).length;
     for (let i = 0; i < winConditions.length; i++) {
       let threeInARow = 0;
       for (let j = 0; j <= 2; j++) {
@@ -73,7 +73,7 @@ class GlobalBoard extends React.Component {
   render() {
     return (
       <div className='wrapper'>
-        <style jsx>{`
+        <style jsx="true">{`
           h3 {
             text-align: center;
             margin-bottom: 5px;
@@ -144,7 +144,7 @@ class GlobalBoard extends React.Component {
         <div className='global-winner' id='gameBoard' onClick={() => window.location.reload()}>
         </div>
         {this.props.boardData.map((board, index) => (
-          <div key={index}  className={`${this.bgColor} local-board mark-playable`} id={'gl-board' + index}>
+          <div key={index} className={`${this.bgColor} local-board mark-playable`} id={'gl-board' + index}>
             <LocalBoard
               gameStatus={this.props.gameStatus}
               dispatch={this.props.dispatch}
